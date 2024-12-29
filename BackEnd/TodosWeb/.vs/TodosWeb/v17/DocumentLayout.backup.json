@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\service\\todos\\todosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:service\\todos\\todosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\service\\todos\\itodosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:service\\todos\\itodosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\seeders\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:seeders\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\data\\todosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:data\\todosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 151,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T14:09:31.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodosService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\TodosService.cs",
+              "RelativeDocumentMoniker": "Service\\Todos\\TodosService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\TodosService.cs",
+              "RelativeToolTip": "Service\\Todos\\TodosService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T14:08:54.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITodosService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\ITodosService.cs",
+              "RelativeDocumentMoniker": "Service\\Todos\\ITodosService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\ITodosService.cs",
+              "RelativeToolTip": "Service\\Todos\\ITodosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T14:06:19.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Data\\TodosDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TodosDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Data\\TodosDbContext.cs",
+              "RelativeToolTip": "Data\\TodosDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:59:19.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Seeders\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Seeders\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Seeders\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Seeders\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:34:38.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:01:39.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
