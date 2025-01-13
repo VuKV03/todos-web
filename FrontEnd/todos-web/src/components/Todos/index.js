@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { delTodosAPI, getTodosAPI } from "../../api/todos";
+import { addTodosAPI, delTodosAPI, getTodosAPI } from "../../api/todos";
 import "./index.css";
-
 
 const Todos = () => {
   const [todos, setTodos] = useState([]);
@@ -15,13 +14,26 @@ const Todos = () => {
   };
 
   const delTodo = async (id) => {
-    if (window.confirm("Bạn có chắc chắn muốn xóa nhiệm vụ không?")){
+    if (window.confirm("Bạn có chắc chắn muốn xóa nhiệm vụ không?")) {
       await delTodosAPI(id);
       window.location.reload();
     }
-  }
+  };
 
-  console.log(todos);
+  const addOrEditTodo = async (e) => {
+    e.preventDefault();
+    const val = e.target[0].value;
+    const id = e.target[1].value;
+    if (id){
+      // Update
+    } else {
+      // New
+      await addTodosAPI({
+        name: val
+      });
+      fetchData();
+    }
+  };
 
   return (
     <>
@@ -31,25 +43,29 @@ const Todos = () => {
           <span>Việc hôm nay không để ngày mai.</span>
         </h1>
 
-        {todos?.map((item, key) => (
-          <li className={item.isComplete ? "done" : ""} key={key}>
-            <span className="label">{item.name}</span>
-            <div className="actions">
-              <button className="btn-picto" type="button">
-                <i className="fas fa-edit" />
-              </button>
-              <button
-                className="btn-picto"
-                type="button"
-                aria-label="Delete"
-                title="Delete"
-                onClick={() => delTodo(item.id)}
-              >
-                <i className="fas fa-trash" />
-              </button>
-            </div>
-          </li>
-        ))}
+        {todos ? (
+          todos?.map((item, key) => (
+            <li className={item.isComplete ? "done" : ""} key={key}>
+              <span className="label">{item.name}</span>
+              <div className="actions">
+                <button className="btn-picto" type="button">
+                  <i className="fas fa-edit" />
+                </button>
+                <button
+                  className="btn-picto"
+                  type="button"
+                  aria-label="Delete"
+                  title="Delete"
+                  onClick={() => delTodo(item.id)}
+                >
+                  <i className="fas fa-trash" />
+                </button>
+              </div>
+            </li>
+          ))
+        ) : (
+          <p>Danh sách nhiệm vụ trống</p>
+        )}
 
         {/* <li className="done">
           <span className="label">123</span>
@@ -83,11 +99,11 @@ const Todos = () => {
             </button>
           </div>
         </li> */}
-        <form>
+        <form onSubmit={addOrEditTodo}>
           <label>Thêm nhiệm vụ mới</label>
           <input type="text" name="name" id="name" />
           <input type="text" name="id" id="name" />
-          <button type="button">Thêm mới</button>
+          <button type="submit">Thêm mới</button>
         </form>
       </main>
     </>

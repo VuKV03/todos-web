@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\service\\todos\\todosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:service\\todos\\todosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\service\\todos\\itodosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:service\\todos\\itodosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|c:\\users\\admin\\desktop\\vv\\todos\\src\\backend\\todosweb\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF30A190-60C7-46B0-BAE5-570F523A18DF}|TodosWeb.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 151,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,33 +30,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Controllers\\ValuesController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T14:09:31.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TodosService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\TodosService.cs",
               "RelativeDocumentMoniker": "Service\\Todos\\TodosService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\TodosService.cs",
               "RelativeToolTip": "Service\\Todos\\TodosService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T14:08:54.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ITodosService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\vv\\Todos\\src\\BackEnd\\TodosWeb\\Service\\Todos\\ITodosService.cs",
               "RelativeDocumentMoniker": "Service\\Todos\\ITodosService.cs",
@@ -64,8 +64,7 @@
               "RelativeToolTip": "Service\\Todos\\ITodosService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T14:06:19.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T14:06:19.533Z"
             }
           ]
         }

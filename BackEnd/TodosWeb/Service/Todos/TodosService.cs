@@ -14,7 +14,9 @@ namespace TodosWeb.Service.Todos
         }
         public bool AddTodo(Todo todo)
         {
-            throw new NotImplementedException();
+            _todosDbContext.Todos.Add(todo);
+            _todosDbContext.SaveChanges();
+            return true;
         }
 
         public bool DelTodo(int id)
