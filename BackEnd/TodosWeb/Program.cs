@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using TodosWeb.Data;
 using TodosWeb.Service.Todos;
 
 namespace TodosWeb
@@ -14,6 +16,12 @@ namespace TodosWeb
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<TodosDbContext>(option =>
+            {
+                option.UseSqlServer(builder.Configuration.GetConnectionString("TodosDatabase"));
+            }
+            );
 
             builder.Services.AddTransient<ITodosService, TodosService>();
 

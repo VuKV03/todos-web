@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodosWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed99ee763698c56e97d150d3f1dcf205c891be9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodosWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodosWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,6 +10,6 @@ namespace TodosWeb.Service.Todos
 
         Boolean UpdateTodo(Todo todo);
 
-        Boolean DelTodo(Todo toddo);
+        Boolean DelTodo(int id);
     }
 }

@@ -1,22 +1,33 @@
-﻿using TodosWeb.Models;
+﻿using TodosWeb.Data;
+using TodosWeb.Models;
 
 namespace TodosWeb.Service.Todos
 {
     public class TodosService : ITodosService
     {
+
+        private readonly TodosDbContext _todosDbContext;
+
+        public TodosService (TodosDbContext todosDbContext)
+        {
+            _todosDbContext = todosDbContext;
+        }
         public bool AddTodo(Todo todo)
         {
             throw new NotImplementedException();
         }
 
-        public bool DelTodo(Todo toddo)
+        public bool DelTodo(int id)
         {
-            throw new NotImplementedException();
+            Todo todo = _todosDbContext.Todos.Find(id);
+            _todosDbContext.Todos.Remove(todo);
+            _todosDbContext.SaveChanges();
+            return true;
         }
 
         public List<Todo> GetTodos()
         {
-            return new List<Todo>();
+            return _todosDbContext.Todos.OrderByDescending(x => x.Id).ToList();
         }
 
         public bool UpdateTodo(Todo todo)
